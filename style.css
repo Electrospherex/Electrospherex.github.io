@@ -25,6 +25,9 @@ html {
   scroll-behavior: smooth;
 }
 
+#navigation .container .catitafantil {
+  align-items: center;
+}
 
 
 html,
@@ -108,6 +111,10 @@ section .content p {
   gap: 1.6rem;
   text-decoration: none;
   transition: background 200ms;
+}
+
+.content {
+
 }
 
 .button:hover {
@@ -265,7 +272,7 @@ body.menu-expanded button path {
   content: "";
   width: 100%;
   height: calc(76% + var(--nav-height));
-  background-color: var(--green-light);
+  background-color: var(--green-light-02);
   display: block;
   position: absolute;
   top: 0;
@@ -285,7 +292,6 @@ body.menu-expanded button path {
 
   margin-bottom: 3.2rem;
 }
-
 
 
 #home img {
@@ -313,7 +319,7 @@ body.menu-expanded button path {
 /* Serviços */
 
 #services h2 {
-  margin-bottom: 6rem;
+  margin-bottom: 2rem;
 }
 
 #services .cards {
@@ -342,6 +348,12 @@ body.menu-expanded button path {
   background-color: var(--beige);
 }
 
+#about2 {
+  text-align: left;
+  background-color: var(--green-light);
+}
+
+
 #about header h2 {
   margin-bottom: 2.4rem;
 }
@@ -355,6 +367,7 @@ body.menu-expanded button path {
 
 #contact {
   text-align: left;
+  background-color: var(--beige);
 }
 
 #contact header {
@@ -451,7 +464,7 @@ footer .social-links {
   }
 
   section {
-    padding-block: 16rem;
+    padding-block: 10rem;
   }
 
   section header h2 {
@@ -586,12 +599,13 @@ footer .social-links {
   }
 
   #home .container {
-    grid-template-columns: 60.5rem 1fr;
+    grid-template-columns: 110rem 1fr;
     grid-template-areas: 'A B' 'C C';
+    padding-top: 10rem;
   }
 
   #home .col-a {
-    text-align: left;
+    text-align: center;
     align-self: center;
   }
 
@@ -658,6 +672,21 @@ footer .social-links {
     margin-bottom: 0;
   }
 
+  #about2 .content p {
+    margin-bottom: 0;
+    text-align: center;
+  }
+
+  #about2 .container .col-a header h2 {
+    text-align: center;
+  }
+
+  #about2 .container .col-a .content img {
+    padding-left: 250px;
+    padding-top: 50px;
+  }
+
+
   /* Contact */
 
   #contact .container {
@@ -675,7 +704,7 @@ footer .social-links {
 
   /* Footer */
   footer {
-    padding-block: 8rem;
+    padding-block: 3rem;
   }
 
   footer .container {
