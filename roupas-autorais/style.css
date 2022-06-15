@@ -318,17 +318,17 @@
   
   /* Serviços */
   
-  #services h2 {
+  #catalog h2 {
     margin-bottom: 2rem;
   }
   
-  #services .cards {
+  #catalog .cards {
     display: flex;
     flex-direction: column;
     gap: 3.2rem;
   }
   
-  #services .card {
+  #catalog .card {
     padding: 2.4rem;
     text-align: left;
     background: #FFFFFF;
@@ -336,7 +336,7 @@
     border-radius: 0.6rem;
   }
   
-  #services .card h3 {
+  #catalog .card h3 {
     margin-block: 1.6rem;
   }
   
