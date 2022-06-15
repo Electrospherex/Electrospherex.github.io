@@ -8,13 +8,13 @@
 }
 
 :root {
-  --primary-color: #f77536;
+  --primary-color: #36c2a8;
   --headline: #061800; 
   --paragraph: #463333;
   --green-light: #DCE9E2;
   --green-light-02: #f2fff9;
   --white: #EDEDED;
-  --beige: #fff9f5; 
+  --beige: #ffece8; 
   --green-hover: #65e7d1;
   font-size: 62.5%;
   --font: 62.5%;
@@ -28,7 +28,6 @@ html {
 #navigation .container .catitafantil {
   align-items: center;
 }
-
 
 html,
 body {
