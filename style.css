@@ -14,7 +14,7 @@
   --green-light: #DCE9E2;
   --green-light-02: #f2fff9;
   --white: #EDEDED;
-  --beige: #ffece8; 
+  --beige: #fff0ed; 
   --green-hover: #65e7d1;
   font-size: 62.5%;
   --font: 62.5%;
@@ -343,7 +343,7 @@ body.menu-expanded button path {
 /* About */
 
 #about {
-  text-align: left;
+  text-align: justify;
   background-color: var(--beige);
 }
 
