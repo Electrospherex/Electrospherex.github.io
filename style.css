@@ -335,6 +335,11 @@ body.menu-expanded button path {
   border-radius: 0.6rem;
 }
 
+#services .card img {
+  border-radius: 2rem;
+  border: 3px solid black;
+}
+
 #services .card h3 {
   margin-block: 1.6rem;
 }
