@@ -330,8 +330,6 @@ body.menu-expanded button path {
 #services .card {
   padding: 2.4rem;
   text-align: left;
-  background: #FFFFFF;
-  border: 1px solid var(--green-light-02);
   border-radius: 0.6rem;
 }
 
