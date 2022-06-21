@@ -4,7 +4,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* font-size: var(--font) */
 }
 
 :root {
@@ -403,7 +402,6 @@ footer {
   padding-block: 6rem;
   text-align: left;
   color: #FFFFFF;
-  width: 50% 50% 50% 50%;
 }
 
 footer .logo {
@@ -429,7 +427,7 @@ footer p {
 
 
 footer .social-links {
-  justify-content: flex-start;
+  justify-content: flex-start
 }
 
 /* Back to Top */
@@ -714,7 +712,6 @@ footer .social-links {
   /* Footer */
   footer {
     padding-block: 3rem;
-    text-align: center;
   }
 
   footer .container {
