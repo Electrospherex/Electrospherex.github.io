@@ -45,7 +45,6 @@ body {
 
 .container {
   width: min(50rem, 100%);
-  width: max(55rem, 100%);
   margin-inline: auto;
   padding-inline: 2.4rem;
 }
@@ -331,10 +330,10 @@ body.menu-expanded button path {
 #services .card {
   padding: 0.8rem;
   text-align: center;
-  background: black;
+  background: #f7a754;
   border: 2px solid white;
   border-radius: 1.5rem;
-  text-shadow: #fa8357 0.2rem 0.1rem 0.5rem;
+  text-shadow: teal 0.2rem 0.1rem 0.5rem;
   color: white;
 }
 
@@ -715,6 +714,7 @@ footer .social-links {
   /* Footer */
   footer {
     padding-block: 3rem;
+    text-align: center;
   }
 
   footer .container {
