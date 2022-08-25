@@ -4,7 +4,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* font-size: var(--font) */
 }
 
 :root {
@@ -197,6 +196,7 @@ body.menu-expanded .menu {
   padding-top: var(--nav-height);
   transition: transform 300ms;
   transform: translateY(0);
+
 }
 
 .menu ul:nth-child(1) {
@@ -323,22 +323,28 @@ body.menu-expanded button path {
 #services .cards {
   display: flex;
   flex-direction: column;
-  gap: 3.2rem;
+  gap: 10rem;
 }
 
 #services .card {
-  padding: 2.4rem;
+  padding: 0.8rem;
   text-align: center;
-  border-radius: 0.6rem;
+  background: #54e3c6;
+  border: 2px solid white;
+  border-radius: 1.5rem;
+  text-shadow: orange 0.2rem 0.1rem 0.5rem;
+  color: white;
 }
 
 #services .card img {
-  border-radius: 2rem;
-  border: 3px solid black;
+  border: 2px solid white;
+  border-radius: 1.5rem;
 }
 
 #services .card h3 {
   margin-block: 1.6rem;
+  font-size: 3rem;
+  color: var(--green-light);
 }
 
 
@@ -421,7 +427,7 @@ footer p {
 
 
 footer .social-links {
-  justify-content: flex-start;
+  justify-content: flex-start
 }
 
 /* Back to Top */
