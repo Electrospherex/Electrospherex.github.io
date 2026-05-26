@@ -1,156 +1,188 @@
-<!DOCTYPE html>
-<html lang="pt-br" class="no-js">
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Combate à Dengue</title>
-    <link href="https://fonts.googleapis.com/css?family=Heebo:400,700|Oxygen:700" rel="stylesheet">
-    <link rel="stylesheet" href="dist/css/style.css">
-    <script src="https://unpkg.com/scrollreveal@4.0.5/dist/scrollreveal.min.js"></script>
-</head>
-<body class="is-boxed has-animations">
-    <div class="body-wrap boxed-container">
-        <header class="site-header text-light">
-            <div class="container">
-                <div class="site-header-inner">
-                    <div class="brand header-brand">
-                        <h1 class="m-0">
-                            <a href="#">
-                                <img class="header-logo-image" style="width: 100px;" src="dist/images/logo.png" alt="Logo">
-                            </a>
-                        </h1>
-                    </div>
-                </div>
-            </div>
-        </header>
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-Descarte | Manejo Correto de Lixo Eletrônico</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Cabeçalho e Menu de Navegação -->
+    <header class="navbar">
+      <div class="container nav-container">
+        <div class="logo">
+          <i class="fa-solid fa-leaf"></i> <span>E-Descarte</span>
+        </div>
+        <nav>
+          <ul class="nav-links">
+            <li><a href="#inicio">Início</a></li>
+            <li><a href="#problema">O Problema</a></li>
+            <li><a href="#impactos">Impactos Reais</a></li>
+            <li><a href="#como-fazer">Como Descartar</a></li>
+            <li><a href="#conscientizacao">Nossa Responsabilidade</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
 
-        <main>
-            <section class="hero text-center text-light">
-                <div class="hero-bg"></div>
-                <div class="hero-particles-container">
-                    <canvas id="hero-particles"></canvas>
-                </div>
-                <div class="container-sm">
-                    <div class="hero-inner">
-                        <div class="hero-copy">
-                            <h1 class="hero-title mt-0">Juntos Contra a Dengue</h1>
-                            <p class="hero-paragraph">Elimine focos do mosquito, proteja sua família e ajude a combater a propagação da doença. Com pequenas ações, podemos salvar vidas.</p>
-                            <div class="hero-cta">
-                            </div>
-                        </div>
-                        <div class="mockup-container">
-                            <img class="device-mockup" src="dist/images/mosquito.png" alt="Mosquito">
-                        </div>
-                    </div>
-                </div>
-            </section>
+    <!-- Seção Hero (Banner Principal) -->
+    <section id="inicio" class="hero">
+      <div class="container hero-content">
+        <h1>O futuro do planeta começa no seu descarte</h1>
+        <p>
+          Seus eletrônicos antigos não pertencem ao lixo comum. Descubra como
+          manejar e reciclar e-waste de forma segura e sustentável.
+        </p>
+        <a href="#como-fazer" class="btn-primary">Saiba Como Descartar</a>
+      </div>
+    </section>
 
-            <section class="features-extended section">
-                <div class="features-extended-inner section-inner">
-                    <div class="features-extended-wrap">
-                        <div class="container">
-                            <div class="feature-extended">
-                                <div class="feature-extended-image">
-                                    <div class="mockup-bg">
-                                        <img src="dist/images/iphone-feature-bg-01.svg" alt="">
-                                    </div>
-                                    <img class="device-mockup is-revealing" src="dist/images/planta.png" alt="">
-                                </div>
-                                <div class="feature-extended-body is-revealing">
-                                    <h3 class="mt-0 mb-16">O perigo está mais perto do que você imagina</h3>
-                                    <p class="m-0">O mosquito Aedes aegypti se reproduz em água parada e pode estar dentro de casa. A dengue já afeta milhares de pessoas todos os anos. Prevenir é a melhor solução.</p>
-                                </div>
-                            </div>
-                            <div class="feature-extended">
-                                <div class="feature-extended-image">
-                                    <div class="mockup-bg">
-                                        <img src="dist/images/iphone-feature-bg-02.svg" alt="">
-                                    </div>
-                                    <img class="device-mockup is-revealing" src="dist/images/saude.jpg" alt="">
-                                </div>
-                                <div class="feature-extended-body is-revealing">
-                                    <h3 class="mt-0 mb-16">Dicas simples para eliminar focos</h3>
-                                    <p class="m-0">Tampe caixas d'água, elimine pratinhos de vasos, mantenha calhas limpas e descarte corretamente objetos que acumulam água. Verifique pneus, garrafas e recipientes no quintal.</p>
-                                </div>
-                            </div>
-                            <div class="feature-extended">
-                                <div class="feature-extended-image">
-                                    <div class="mockup-bg">
-                                        <img src="dist/images/iphone-feature-bg-03.svg" alt="">
-                                    </div>
-                                    <img class="device-mockup is-revealing" src="dist/images/personagem.png" alt="">
-                                </div>
-                                <div class="feature-extended-body is-revealing">
-                                    <h3 class="mt-0 mb-16">Reconheça os sintomas da dengue</h3>
-                                    <p class="m-0">Febre alta, dor atrás dos olhos, cansaço extremo, manchas na pele e dores no corpo são sinais de alerta. Ao notar os sintomas, procure atendimento médico imediatamente.</p>
-                                </div>
-                            </div>
-                            <div class="feature-extended">
-                                <div class="feature-extended-image">
-                                    <div class="mockup-bg">
-                                        <img src="dist/images/iphone-feature-bg-04.svg" alt="">
-                                    </div>
-                                    <img class="device-mockup is-revealing" src="dist/images/mosquito2.jpg" alt="">
-                                </div>
-                                <div class="feature-extended-body is-revealing">
-                                    <h3 class="mt-0 mb-16">Engaje sua comunidade</h3>
-                                    <p class="m-0">Converse com vizinhos, compartilhe informações e mobilize sua rua, escola ou empresa. A luta contra a dengue depende da colaboração de todos.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </main>
+    <!-- Seção O Problema -->
+    <section id="problema" class="features">
+      <div class="container">
+        <h2 class="section-title">Por que o Lixo Eletrônico é um perigo?</h2>
+        <div class="grid-3">
+          <div class="card">
+            <i class="fa-solid fa-skull-crossbones card-icon"></i>
+            <h3>Metais Pesados</h3>
+            <p>
+              Dispositivos contêm chumbo, mercúrio e cádmio. Se jogados na
+              natureza, vazam e contaminam o solo e os lençóis freáticos.
+            </p>
+          </div>
+          <div class="card">
+            <i class="fa-solid fa-hand-holding-droplet card-icon"></i>
+            <h3>Saúde Pública</h3>
+            <p>
+              A contaminação da água e dos alimentos por componentes eletrônicos
+              pode causar graves problemas neurológicos e renais em humanos.
+            </p>
+          </div>
+          <div class="card">
+            <i class="fa-solid fa-arrows-spin card-icon"></i>
+            <h3>Desperdício de Recursos</h3>
+            <p>
+              Plásticos, ouro, prata e cobre nobres deixam de ser reciclados,
+              exigindo mais mineração e destruição de ecossistemas.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
 
-        <footer class="site-footer">
-            <div class="footer-particles-container">
-                <canvas id="footer-particles"></canvas>
-            </div>
-            <div class="site-footer-top">
-                <section class="cta section text-light">
-                    <div class="container-sm">
-                        <div class="cta-inner section-inner">
-                            <div class="cta-header text-center">
-                                <h2 class="section-title mt-0">Participe da campanha contra a dengue</h2>
-                                <p class="section-paragraph">Receba dicas de prevenção, materiais educativos e saiba como engajar sua comunidade no combate ao mosquito transmissor.</p>
-                                <div class="cta-cta">
-                                    <a class="button button-primary button-wide-mobile" href="https://www.gov.br/saude/pt-br/campanhas-da-saude/2023/combate-ao-mosquito">Quero saber mais!</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-            </div>
-            <div class="site-footer-bottom">
-                <div class="container">
-                    <div class="site-footer-inner">
-                        <div class="brand footer-brand">
-                            <a href="#">
-                                <img src="dist/images/logo.svg" alt="Logo da Campanha">
-                            </a>
-                        </div>
-                        <ul class="footer-social-links list-reset">
-                            <li>
-                                <a href="#"><span class="screen-reader-text">Facebook</span></a>
-                            </li>
-                            <li>
-                                <a href="#"><span class="screen-reader-text">Twitter</span></a>
-                            </li>
-                            <li>
-                                <a href="#"><span class="screen-reader-text">Instagram</span></a>
-                            </li>
-                        </ul>
-                        <div class="footer-copyright">
-                            &copy; 2025 Campanha Contra a Dengue, todos os direitos reservados
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </footer>
-    </div>
+    <!-- NOVA SEÇÃO: Impactos Visuais do Descarte Incorreto -->
+    <section id="impactos" class="impacts-section">
+      <div class="container">
+        <h2 class="section-title">
+          Os Impactos Visíveis do Descarte Incorreto
+        </h2>
+        <p class="section-subtitle">
+          O acúmulo descontrolado e a falta de reciclagem geram cenários
+          alarmantes ao redor do mundo.
+        </p>
 
-    <script src="dist/js/main.min.js"></script>
-</body>
+        <div class="impacts-wrapper">
+          <div class="impact-block">
+            <div class="impact-image img-landfill"></div>
+            <div class="impact-text">
+              <h3>Lixões Eletrônicos Globais</h3>
+              <p>
+                Milhões de toneladas de computadores e smartphones são
+                descartados incorretamente todos os anos. Sem a destinação
+                correta, esses aparelhos formam montanhas de resíduos tóxicos
+                que levam séculos para se decompor, destruindo a paisagem
+                natural e inutilizando áreas agrícolas inteiras.
+              </p>
+            </div>
+          </div>
+
+          <div class="impact-block reverse">
+            <div class="impact-image img-processing"></div>
+            <div class="impact-text">
+              <h3>A Perda da Economia Circular</h3>
+              <p>
+                Quando uma placa de circuito ou componente eletrônico vai parar
+                no lixo comum, perdemos a chance de recuperar minerais
+                preciosos. Isso força a indústria a minerar matéria-prima virgem
+                da Terra, aumentando o desmatamento, o consumo de água e a
+                emissão de gases poluentes.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção Como Fazer (Passo a Passo) -->
+    <section id="como-fazer" class="steps-section">
+      <div class="container">
+        <h2 class="section-title">Guia de Manejo e Descarte</h2>
+        <div class="steps-container">
+          <div class="step-item">
+            <div class="step-number">1</div>
+            <div class="step-text">
+              <h3>Separação e Armazenamento</h3>
+              <p>
+                Separe pilhas, baterias e aparelhos quebrados. Armazene-os em
+                local seco, bem fechado e longe do calor para evitar vazamentos.
+              </p>
+            </div>
+          </div>
+          <div class="step-item">
+            <div class="step-number">2</div>
+            <div class="step-text">
+              <h3>Apague seus Dados</h3>
+              <p>
+                Antes de se desfazer de computadores ou celulares, faça backup e
+                realize a formatação de fábrica para proteger sua privacidade.
+              </p>
+            </div>
+          </div>
+          <div class="step-item">
+            <div class="step-number">3</div>
+            <div class="step-text">
+              <h3>Considere a Doação ou Venda</h3>
+              <p>
+                Se o aparelho ainda funciona ou precisa de reparos simples, doe
+                para instituições sociais ou venda em plataformas de usados.
+              </p>
+            </div>
+          </div>
+          <div class="step-item">
+            <div class="step-number">4</div>
+            <div class="step-text">
+              <h3>Entregue em Postos Autorizados</h3>
+              <p>
+                Leve o e-waste até pontos de coleta seletiva, fabricantes
+                (logística reversa) ou cooperativas especializadas.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="conscientizacao" class="thanks-section">
+      <div class="container thanks-container-box">
+        <div class="thanks-image"></div>
+
+        <div class="thanks-text-content">
+          <div class="thanks-icon">
+            <i class="fa-solid fa-heart-circle-check"></i>
+          </div>
+          <h2>Obrigado por fazer a sua parte!</h2>
+          <p>
+            A cada dispositivo que você descarta nos pontos corretos, o nosso
+            ecossistema ganha um novo fôlego. Juntos, estamos transformando a
+            tecnologia em uma aliada do futuro do nosso planeta. 🌱
+          </p>
+          <span class="thanks-badge">Você faz a diferença!</span>
+        </div>
+      </div>
+    </section>
+  </body>
 </html>
